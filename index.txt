@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #004494;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 0.5rem;
+        }
+        .bilingual {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+    <nav>
+        <a href="#bio">Biography / Biographie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="bio" class="section">
+            <h2>Biography / Biographie</h2>
+            <div class="bilingual">
+                <div>
+                    <h3>English</h3>
+                    <p>I hold a Bachelor's degree in Business Administration and another in Education. My specialty lies in teaching English as a Second Language. With a rich background in hospitality management and banking as a financial planner, I am adept at customer service and managing teams. I am passionate about sharing knowledge and helping others grow and reach their full potential. Open to working in various fields, I seek opportunities where my diverse expertise can be utilized. Ideally, I aspire to work remotely to pursue my passion for travel. I am also open to roles such as management positions, corporate training developer, and instructor, or language teacher.</p>
+                </div>
+                <div>
+                    <h3>Français</h3>
+                    <p>Je suis titulaire d'un baccalauréat en administration des affaires et d'un autre en éducation. Ma spécialité réside dans l'enseignement de l'anglais langue seconde. Avec une riche expérience en gestion hôtelière et en banque en tant que conseiller financier, je suis expert en service à la clientèle et en gestion d'équipes. Je suis passionné par le partage de connaissances et par l'aide aux autres pour qu'ils puissent se développer et atteindre leur plein potentiel. Ouvert à travailler dans divers domaines, je recherche des opportunités où mon expertise diversifiée peut être exploitée. Idéalement, je souhaite travailler à distance pour pouvoir poursuivre ma passion pour les voyages. Je suis également ouvert à des rôles tels que des postes de gestion, développeur de formation en entreprise et instructeur, ou enseignant de langues.</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="bilingual">
+                <div>
+                    <h3>English</h3>
+                    <p>Feel free to connect with me on LinkedIn:</p>
+                    <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+                </div>
+                <div>
+                    <h3>Français</h3>
+                    <p>N'hésitez pas à me contacter sur LinkedIn :</p>
+                    <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">Profil LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
